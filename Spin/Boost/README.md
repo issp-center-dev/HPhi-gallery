@@ -1,6 +1,6 @@
 3*3 Kitaev system with CMA method.
 
-![Lattice](lattice.png)
+<img src="lattice.png" width="400">
 
 ``` bash
 $ HPhi -s StdFace.def
