@@ -19,9 +19,9 @@ where
 
 
     ```
-Energy  -7.1422963606167773
-Doublon  0.0000000000000000
-Sz  0.0000000000000000
+    Energy  -7.1422963606167773
+    Doublon  0.0000000000000000
+    Sz  0.0000000000000000
     ```
     
     Authour: Kazuyoshi Yoshimi (ISSP, Univ. of Tokyo), Date: 2017/12/26
