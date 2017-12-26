@@ -23,3 +23,4 @@ Change the value of ``2S`` in stan.in and check that the minimum and maximum eig
  2 1.0000000000
     ```
     
+    Authour: Kazuyoshi Yoshimi (ISSP, Univ. of Tokyo), Date: 2017/12/26

@@ -26,3 +26,5 @@ triplet: E_{max} =1/4
     1 0.2500000000
 
     ```
+    
+    Authour: Kazuyoshi Yoshimi (ISSP, Univ. of Tokyo), Date: 2017/12/26
