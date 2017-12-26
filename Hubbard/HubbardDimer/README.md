@@ -1,5 +1,6 @@
 Hubbard model (half-filling, Sz=0)
-<img src  <a href="https://www.codecogs.com/eqnedit.php?latex={\cal&space;H}&space;=&space;-t&space;(c_{0\sigma}^{\dag}c_{1\sigma}&space;&plus;&space;{\rm&space;h.c.})&plus;U(n_{0\uparrow}n_{0\downarrow}&plus;n_{1\uparrow}n_{1\downarrow})" target="_blank"><img src="https://latex.codecogs.com/gif.latex?{\cal&space;H}&space;=&space;-t&space;(c_{0\sigma}^{\dag}c_{1\sigma}&space;&plus;&space;{\rm&space;h.c.})&plus;U(n_{0\uparrow}n_{0\downarrow}&plus;n_{1\uparrow}n_{1\downarrow})" title="{\cal H} = -t (c_{0\sigma}^{\dag}c_{1\sigma} + {\rm h.c.})+U(n_{0\uparrow}n_{0\downarrow}+n_{1\uparrow}n_{1\downarrow})" /></a></a>
+
+<a href="https://www.codecogs.com/eqnedit.php?latex={\cal&space;H}&space;=&space;-t&space;(c_{0\sigma}^{\dag}c_{1\sigma}&space;&plus;&space;{\rm&space;h.c.})&plus;U(n_{0\uparrow}n_{0\downarrow}&plus;n_{1\uparrow}n_{1\downarrow})" target="_blank"><img src="https://latex.codecogs.com/gif.latex?{\cal&space;H}&space;=&space;-t&space;(c_{0\sigma}^{\dag}c_{1\sigma}&space;&plus;&space;{\rm&space;h.c.})&plus;U(n_{0\uparrow}n_{0\downarrow}&plus;n_{1\uparrow}n_{1\downarrow})" title="{\cal H} = -t (c_{0\sigma}^{\dag}c_{1\sigma} + {\rm h.c.})+U(n_{0\uparrow}n_{0\downarrow}+n_{1\uparrow}n_{1\downarrow})" /></a></a>
 
 
 Check the eigenvalues become 
@@ -18,10 +19,10 @@ Check the eigenvalues become
 
 
     ```
-  0 -0.8284271247
- 1 0.0000000000
- 2 4.0000000000
- 3 4.8284271247
+     0 -0.8284271247
+     1 0.0000000000
+     2 4.0000000000
+     3 4.8284271247
     ```
     
 Authour: Kazuyoshi Yoshimi (ISSP, Univ. of Tokyo), Date: 2017/12/26
