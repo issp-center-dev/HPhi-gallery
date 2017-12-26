@@ -4,6 +4,7 @@ Hubbard model (half-filling, Sz=0)
 
 
 Check the eigenvalues become 
+
 <a href="https://www.codecogs.com/eqnedit.php?latex=E=0,&space;U,&space;\frac{U}{2}(1\pm\sqrt{1&plus;(4t/U^2)})" target="_blank"><img src="https://latex.codecogs.com/gif.latex?E=0,&space;U,&space;\frac{U}{2}(1\pm\sqrt{1&plus;(4t/U^2)})" title="E=0, U, \frac{U}{2}(1\pm\sqrt{1+(4t/U^2)})" /></a>
 
 
