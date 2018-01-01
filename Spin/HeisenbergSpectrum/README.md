@@ -34,8 +34,9 @@ See the manual for details. To simply do above steps, we prepare the script file
     $ splot "./spectrum.dat" using 1:2:3
     ```
     
-    You can see the following figure.
-![Figure](Figure.pdf "Spectrum function for S=1/2 Heisenberg model. Horizontal and vertical axises correspond to the index of wave vector and frequency, respectively.")
+    You can see the following figure, where horizontal and vertical axises correspond to the index of wave vector and frequency, respectively.
+    
+![Spectrum function]( spectrum.png "Spectrum function for S=1/2 Heisenberg model.")
     
 
     
