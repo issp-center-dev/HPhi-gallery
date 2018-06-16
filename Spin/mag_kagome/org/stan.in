@@ -1,0 +1,8 @@
+a0W = 3
+a0L = 0
+a1W = 0
+a1L = 3
+J = 1
+model = spin
+lattice = kagome
+method = CG
