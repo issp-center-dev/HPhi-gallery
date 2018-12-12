@@ -1,0 +1,5 @@
+initial sz : Wed Dec 12 16:08:40 2018
+num_threads==24
+omp parallel sz starts: Wed Dec 12 16:08:40 2018
+mid omp parallel sz : Wed Dec 12 16:08:40 2018
+omp parallel sz finishes: Wed Dec 12 16:08:40 2018

@@ -1,0 +1,127 @@
+Read File starts:   Wed Dec 12 16:19:47 2018
+Read File finishes: Wed Dec 12 16:19:47 2018
+initial sz : Wed Dec 12 16:19:47 2018
+omp parallel sz starts: Wed Dec 12 16:19:47 2018
+mid omp parallel sz : Wed Dec 12 16:19:47 2018
+omp parallel sz finishes: Wed Dec 12 16:19:47 2018
+diagonal calculation starts:   Wed Dec 12 16:19:47 2018
+diagonal calculation finishes: Wed Dec 12 16:19:47 2018
+Lanczos Eigen Value start:    Wed Dec 12 16:19:47 2018
+  1 th Lanczos step: Wed Dec 12 16:19:47 2018
+  2 th Lanczos step: Wed Dec 12 16:19:47 2018
+  3 th Lanczos step: Wed Dec 12 16:19:48 2018
+  4 th Lanczos step: Wed Dec 12 16:19:48 2018
+  5 th Lanczos step: Wed Dec 12 16:19:48 2018
+  6 th Lanczos step: Wed Dec 12 16:19:48 2018
+  7 th Lanczos step: Wed Dec 12 16:19:48 2018
+  8 th Lanczos step: Wed Dec 12 16:19:48 2018
+  9 th Lanczos step: Wed Dec 12 16:19:48 2018
+ 10 th Lanczos step: Wed Dec 12 16:19:48 2018
+ 11 th Lanczos step: Wed Dec 12 16:19:48 2018
+ 12 th Lanczos step: Wed Dec 12 16:19:48 2018
+ 13 th Lanczos step: Wed Dec 12 16:19:48 2018
+ 14 th Lanczos step: Wed Dec 12 16:19:48 2018
+ 15 th Lanczos step: Wed Dec 12 16:19:48 2018
+ 16 th Lanczos step: Wed Dec 12 16:19:48 2018
+ 17 th Lanczos step: Wed Dec 12 16:19:48 2018
+ 18 th Lanczos step: Wed Dec 12 16:19:48 2018
+ 19 th Lanczos step: Wed Dec 12 16:19:48 2018
+ 20 th Lanczos step: Wed Dec 12 16:19:48 2018
+ 21 th Lanczos step: Wed Dec 12 16:19:48 2018
+ 22 th Lanczos step: Wed Dec 12 16:19:48 2018
+ 23 th Lanczos step: Wed Dec 12 16:19:48 2018
+ 24 th Lanczos step: Wed Dec 12 16:19:48 2018
+ 25 th Lanczos step: Wed Dec 12 16:19:48 2018
+ 26 th Lanczos step: Wed Dec 12 16:19:48 2018
+ 27 th Lanczos step: Wed Dec 12 16:19:48 2018
+ 28 th Lanczos step: Wed Dec 12 16:19:48 2018
+ 29 th Lanczos step: Wed Dec 12 16:19:48 2018
+ 30 th Lanczos step: Wed Dec 12 16:19:48 2018
+ 31 th Lanczos step: Wed Dec 12 16:19:48 2018
+ 32 th Lanczos step: Wed Dec 12 16:19:48 2018
+ 33 th Lanczos step: Wed Dec 12 16:19:48 2018
+ 34 th Lanczos step: Wed Dec 12 16:19:48 2018
+ 35 th Lanczos step: Wed Dec 12 16:19:48 2018
+ 36 th Lanczos step: Wed Dec 12 16:19:48 2018
+ 37 th Lanczos step: Wed Dec 12 16:19:48 2018
+ 38 th Lanczos step: Wed Dec 12 16:19:48 2018
+ 39 th Lanczos step: Wed Dec 12 16:19:48 2018
+ 40 th Lanczos step: Wed Dec 12 16:19:48 2018
+ 41 th Lanczos step: Wed Dec 12 16:19:48 2018
+ 42 th Lanczos step: Wed Dec 12 16:19:48 2018
+ 43 th Lanczos step: Wed Dec 12 16:19:48 2018
+ 44 th Lanczos step: Wed Dec 12 16:19:48 2018
+ 45 th Lanczos step: Wed Dec 12 16:19:48 2018
+ 46 th Lanczos step: Wed Dec 12 16:19:48 2018
+ 47 th Lanczos step: Wed Dec 12 16:19:48 2018
+ 48 th Lanczos step: Wed Dec 12 16:19:48 2018
+ 49 th Lanczos step: Wed Dec 12 16:19:48 2018
+ 50 th Lanczos step: Wed Dec 12 16:19:48 2018
+ 51 th Lanczos step: Wed Dec 12 16:19:48 2018
+ 52 th Lanczos step: Wed Dec 12 16:19:48 2018
+ 53 th Lanczos step: Wed Dec 12 16:19:48 2018
+ 54 th Lanczos step: Wed Dec 12 16:19:48 2018
+ 55 th Lanczos step: Wed Dec 12 16:19:48 2018
+ 56 th Lanczos step: Wed Dec 12 16:19:48 2018
+ 57 th Lanczos step: Wed Dec 12 16:19:48 2018
+ 58 th Lanczos step: Wed Dec 12 16:19:48 2018
+ 59 th Lanczos step: Wed Dec 12 16:19:48 2018
+ 60 th Lanczos step: Wed Dec 12 16:19:48 2018
+ 61 th Lanczos step: Wed Dec 12 16:19:48 2018
+ 62 th Lanczos step: Wed Dec 12 16:19:48 2018
+ 63 th Lanczos step: Wed Dec 12 16:19:48 2018
+ 64 th Lanczos step: Wed Dec 12 16:19:48 2018
+ 65 th Lanczos step: Wed Dec 12 16:19:48 2018
+ 66 th Lanczos step: Wed Dec 12 16:19:48 2018
+ 67 th Lanczos step: Wed Dec 12 16:19:48 2018
+ 68 th Lanczos step: Wed Dec 12 16:19:48 2018
+ 69 th Lanczos step: Wed Dec 12 16:19:48 2018
+ 70 th Lanczos step: Wed Dec 12 16:19:48 2018
+ 71 th Lanczos step: Wed Dec 12 16:19:48 2018
+ 72 th Lanczos step: Wed Dec 12 16:19:48 2018
+ 73 th Lanczos step: Wed Dec 12 16:19:48 2018
+ 74 th Lanczos step: Wed Dec 12 16:19:48 2018
+ 75 th Lanczos step: Wed Dec 12 16:19:48 2018
+ 76 th Lanczos step: Wed Dec 12 16:19:48 2018
+ 77 th Lanczos step: Wed Dec 12 16:19:48 2018
+ 78 th Lanczos step: Wed Dec 12 16:19:48 2018
+ 79 th Lanczos step: Wed Dec 12 16:19:48 2018
+ 80 th Lanczos step: Wed Dec 12 16:19:48 2018
+ 81 th Lanczos step: Wed Dec 12 16:19:48 2018
+ 82 th Lanczos step: Wed Dec 12 16:19:48 2018
+ 83 th Lanczos step: Wed Dec 12 16:19:48 2018
+ 84 th Lanczos step: Wed Dec 12 16:19:48 2018
+ 85 th Lanczos step: Wed Dec 12 16:19:48 2018
+ 86 th Lanczos step: Wed Dec 12 16:19:48 2018
+ 87 th Lanczos step: Wed Dec 12 16:19:48 2018
+ 88 th Lanczos step: Wed Dec 12 16:19:48 2018
+ 89 th Lanczos step: Wed Dec 12 16:19:48 2018
+ 90 th Lanczos step: Wed Dec 12 16:19:48 2018
+ 91 th Lanczos step: Wed Dec 12 16:19:48 2018
+ 92 th Lanczos step: Wed Dec 12 16:19:48 2018
+ 93 th Lanczos step: Wed Dec 12 16:19:48 2018
+ 94 th Lanczos step: Wed Dec 12 16:19:48 2018
+ 95 th Lanczos step: Wed Dec 12 16:19:48 2018
+ 96 th Lanczos step: Wed Dec 12 16:19:48 2018
+ 97 th Lanczos step: Wed Dec 12 16:19:48 2018
+ 98 th Lanczos step: Wed Dec 12 16:19:48 2018
+ 99 th Lanczos step: Wed Dec 12 16:19:49 2018
+100 th Lanczos step: Wed Dec 12 16:19:49 2018
+101 th Lanczos step: Wed Dec 12 16:19:49 2018
+102 th Lanczos step: Wed Dec 12 16:19:49 2018
+103 th Lanczos step: Wed Dec 12 16:19:49 2018
+104 th Lanczos step: Wed Dec 12 16:19:49 2018
+105 th Lanczos step: Wed Dec 12 16:19:49 2018
+106 th Lanczos step: Wed Dec 12 16:19:49 2018
+Lanczos Eigenvalue finishes:  Wed Dec 12 16:19:49 2018
+Lanczos Eigenvector starts:   Wed Dec 12 16:19:49 2018
+Lanczos Eigenvector finishes: Wed Dec 12 16:19:50 2018
+Calculate energy begins:      Wed Dec 12 16:19:50 2018
+Calculate energy finishes:    Wed Dec 12 16:19:50 2018
+Lanczos expec_cisajs Starts: Wed Dec 12 16:19:50 2018
+Lanczos expec_cisajs finishes: Wed Dec 12 16:19:50 2018
+Lanczos expec_cisajs finishes: Wed Dec 12 16:19:50 2018
+Lanczos expec_cisajacktalt finishes: Wed Dec 12 16:19:50 2018
+Lanczos expec_cisajacktalt finishes: Wed Dec 12 16:19:50 2018
+Output Eigenvector starts:          Wed Dec 12 16:19:50 2018
+Output Eigenvector finishes:        Wed Dec 12 16:19:50 2018

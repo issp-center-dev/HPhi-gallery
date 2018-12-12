@@ -1,0 +1,226 @@
+mpijob CMD    : mpirun -f /tmp/mpiexec.params.t000400.22460
+mpijob PARAMS : -d /home/t0004/t000400/HPhi/samples/TE/hubbard_ac_chain r1i1n22 1
+        omplace -nt 24 "hphi" "-s" "stan2.in"
+
+SGI MPT Placement option
+--------------------------
+omplace -nt 24
+
+Node   MPI
+------------
+r1i1n22 1
+
+                                                                
+      ,ammmmmmmmmmmmmmb,,        Welcome to the                 
+    ,@@` dm          mb  ===m                                    
+  ,@@` d@@@@@@@@@@@@@@@@b Pm,    @@          @@        @@       
+ d@  d@@@ @@@ @@@@@@ @@@@b ~@a   @@          @@     @@@@@@@@    
+d@   @@@@ ^^^ @@@@ m m @@@   @,  @@          @@   @@@  @@  @@@  
+@    @@@@_@@@_@@@@mm mm@@@   @|  @@mmmmmmmmmm@@  @@    @@    @@ 
+P@    9@@@@@@@@@@@@@@@@@P    @~  @@@@@@@@@@@@@@  @@    @@    @@ 
+ @@      ~~9@@@@@@PPP~      @P   @@          @@   @@@  @@  @@@  
+  ~@@b      @@@@@@@      ,@@~    @@          @@     @@@@@@@@    
+    ~@@@m,,@@@@@@@@@  ,m@~`      @@          @@        @@       
+        ~~9@@@@@@@@@  ~                                         
+           9@P~~~9@P             Version 3.1.2    
+                                                                
+
+
+#####  Parallelization Info.  #####
+
+  OpenMP threads : 24
+  MPI PEs : 1 
+
+
+######  Input Parameter of Standard Intarface  ######
+
+  Open Standard-Mode Inputfile stan2.in 
+
+  KEYWORD : model                | VALUE : FermionHubbard 
+  KEYWORD : method               | VALUE : Time-Evolution 
+  KEYWORD : lattice              | VALUE : chainlattice 
+  KEYWORD : l                    | VALUE : 12 
+  KEYWORD : t                    | VALUE : 1.0 
+  KEYWORD : u                    | VALUE : 4.0 
+  KEYWORD : nelec                | VALUE : 8 
+  KEYWORD : 2sz                  | VALUE : 0 
+  KEYWORD : eigenvecio           | VALUE : in 
+  KEYWORD : dt                   | VALUE : 0.001 
+  KEYWORD : tshift               | VALUE : 0.0 
+  KEYWORD : freq                 | VALUE : 20.0 
+  KEYWORD : pumptype             | VALUE : ACLaser 
+  KEYWORD : vecpotl              | VALUE : 3 
+  KEYWORD : lanczos_max          | VALUE : 5000 
+
+#######  Construct Model  #######
+
+    CDataFileHead = zvo         ######  DEFAULT VALUE IS USED  ######
+
+  @ Time-evolution
+
+          VecPotW = 0.00000     ######  DEFAULT VALUE IS USED  ######
+          VecPotL = 3.00000   
+          VecPotH = 0.00000     ######  DEFAULT VALUE IS USED  ######
+      Lanczos_max = 5000      
+               dt = 0.00100   
+             freq = 20.00000  
+           tshift = 0.00000   
+            tdump = 0.10000     ######  DEFAULT VALUE IS USED  ######
+          Uquench = 0.00000     ######  DEFAULT VALUE IS USED  ######
+       ExpandCoef = 10          ######  DEFAULT VALUE IS USED  ######
+     PumpType = aclaser
+  @ Lattice Size & Shape
+
+                a = 1.00000     ######  DEFAULT VALUE IS USED  ######
+          Wlength = 1.00000     ######  DEFAULT VALUE IS USED  ######
+          Llength = 1.00000     ######  DEFAULT VALUE IS USED  ######
+               Wx = 1.00000     ######  DEFAULT VALUE IS USED  ######
+               Wy = 0.00000     ######  DEFAULT VALUE IS USED  ######
+               Lx = 0.00000     ######  DEFAULT VALUE IS USED  ######
+               Ly = 1.00000     ######  DEFAULT VALUE IS USED  ######
+           phase0 = 0.00000     ######  DEFAULT VALUE IS USED  ######
+                L = 12 
+
+  @ Super-Lattice setting
+
+                L = 12        
+                W = 1         
+           Height = 1           ######  DEFAULT VALUE IS USED  ######
+   Number of Cell = 12
+
+  @ Hamiltonian 
+
+                h = 0.00000     ######  DEFAULT VALUE IS USED  ######
+            Gamma = 0.00000     ######  DEFAULT VALUE IS USED  ######
+               mu = 0.00000     ######  DEFAULT VALUE IS USED  ######
+                U = 4.00000   
+               t0 = 1.00000    0.00000   
+               t' = 0.00000    0.00000     ######  DEFAULT VALUE IS USED  ######
+               V' = 0.00000     ######  DEFAULT VALUE IS USED  ######
+
+  @ Numerical conditions
+
+       LargeValue = 4.00000     ######  DEFAULT VALUE IS USED  ######
+
+######  Print Expert input files  ######
+
+    locspn.def is written.
+      trans.def is written.
+    coulombintra.def is written.
+      Lanczos_max = 5000      
+       initial_iv = -1          ######  DEFAULT VALUE IS USED  ######
+             exct = 1           ######  DEFAULT VALUE IS USED  ######
+       LanczosEps = 14          ######  DEFAULT VALUE IS USED  ######
+    LanczosTarget = 2           ######  DEFAULT VALUE IS USED  ######
+           NumAve = 5           ######  DEFAULT VALUE IS USED  ######
+    ExpecInterval = 20          ######  DEFAULT VALUE IS USED  ######
+           NOmega = 200         ######  DEFAULT VALUE IS USED  ######
+         OmegaMax = 48.00000    ######  DEFAULT VALUE IS USED  ######
+         OmegaMin = -48.00000   ######  DEFAULT VALUE IS USED  ######
+          OmegaIm = 0.04000     ######  DEFAULT VALUE IS USED  ######
+            nelec = 8  
+     modpara.def is written.
+
+  @ Spectrum
+
+       SpectrumQW = 0.00000     ######  DEFAULT VALUE IS USED  ######
+       SpectrumQL = 0.00000     ######  DEFAULT VALUE IS USED  ######
+       SpectrumQH = 0.00000     ######  DEFAULT VALUE IS USED  ######
+     SpectrumType = szsz        ######  DEFAULT VALUE IS USED  ######
+        pair.def is written.
+
+      teone.def is written.
+
+
+  @ CalcMod
+
+          Restart = none        ######  DEFAULT VALUE IS USED  ######
+   InitialVecType = c           ######  DEFAULT VALUE IS USED  ######
+       EigenVecIO = in
+         CalcSpec = none        ######  DEFAULT VALUE IS USED  ######
+     calcmod.def is written.
+
+      ioutputmode = 1           ######  DEFAULT VALUE IS USED  ######
+    greenone.def is written.
+    greentwo.def is written.
+    namelist.def is written.
+
+######  Input files are generated.  ######
+
+  Read File 'namelist.def'.
+  Read File 'calcmod.def' for CalcMod.
+  Read File 'modpara.def' for ModPara.
+  Read File 'locspn.def' for LocSpin.
+  Read File 'trans.def' for Trans.
+  Read File 'coulombintra.def' for CoulombIntra.
+  Read File 'greenone.def' for OneBodyG.
+  Read File 'greentwo.def' for TwoBodyG.
+  Read File 'pair.def' for PairExcitation.
+  Read File 'teone.def' for TEOneBody.
+
+######  Definition files are correct.  ######
+
+  Read File 'locspn.def'.
+  Read File 'trans.def'.
+  Read File 'coulombintra.def'.
+  Read File 'greenone.def'.
+  Read File 'greentwo.def'.
+  Read File 'pair.def'.
+  Read File 'teone.def'.
+
+######  Indices and Parameters of Definition files(*.def) are complete.  ######
+
+  MAX DIMENSION idim_max=245025 
+  APPROXIMATE REQUIRED MEMORY  max_mem=0.027443 GB 
+
+
+######  MPI site separation summary  ######
+
+  INTRA process site
+    Site    Bit
+       0       4
+       1       4
+       2       4
+       3       4
+       4       4
+       5       4
+       6       4
+       7       4
+       8       4
+       9       4
+      10       4
+      11       4
+
+  INTER process site
+    Site    Bit
+
+  Process element info
+    Process       Dimension   Nup  Ndown  Nelec  Total2Sz   State
+          0          245025     4      4      8         0   
+
+   Total dimension : 245025
+
+
+######  LARGE ALLOCATE FINISH !  ######
+
+  Start: Calculate HilbertNum for fixed Sz. 
+  End  : Calculate HilbertNum for fixed Sz. 
+
+  Start: Calculate diagaonal components of Hamiltonian. 
+  End  : Calculate diagaonal components of Hamiltonian. 
+
+######  Start: TimeEvolution by Taylor Expansion.  ######
+
+An Initial Vector is inputted.
+    step_i/total_step=0/5000 
+    step_i/total_step=500/5000 
+    step_i/total_step=1000/5000 
+    step_i/total_step=1500/5000 
+    step_i/total_step=2000/5000 
+    step_i/total_step=2500/5000 
+    step_i/total_step=3000/5000 
+    step_i/total_step=3500/5000 
+    step_i/total_step=4000/5000 
+    step_i/total_step=4500/5000 
+######  End  : TimeEvolution by Taylor Expansion.  ######
+

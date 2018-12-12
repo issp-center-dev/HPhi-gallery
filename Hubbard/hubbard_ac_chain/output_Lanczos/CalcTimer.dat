@@ -1,0 +1,38 @@
+All                                                [0000]      2.23880
+  sz                                               [1000]      0.02847
+  diagonalcalc                                     [2000]      0.00165
+  CalcByLanczos                                    [4000]      2.16439
+    LanczosEigenValue                              [4100]      1.12185
+      mltply      in LanczosEigenValue             [4101]      0.95567
+      vec12       in LanczosEigenValue             [4102]      0.00681
+      DSEVvalue   in LanczosEigenValue             [4103]      0.02225
+    LanczosEigenVector                             [4200]      0.99985
+      mltply      in LanczosEigenVector            [4201]      0.97474
+    expec_energy_flct                              [4300]      0.01039
+      calc flctuation in expec_energy_flct         [4301]      0.00045
+      mltply in expec_energy_flct                  [4302]      0.00898
+    CGEigenVector                                  [4400]      0.00000
+      mltply in CGEigenVector                      [4401]      0.00000
+    expec_onebody                                  [4500]      0.00645
+    expec_twobody                                  [4600]      0.01750
+    expec_TotalSz                                  [4700]      0.00000
+    FileIO                                         [4800]      0.00000
+      Read Input Eigenvec                          [4801]      0.00000
+================================================
+All mltply                                         [0001]      1.93933
+  diagonal                                         [0100]      0.00658
+  Hubbard                                          [0300]      1.93255
+    trans    in Hubbard                            [0310]      1.93245
+      double                                       [0311]      0.00000
+      single                                       [0312]      0.00000
+      inner                                        [0313]      1.93198
+    interall in Hubbard                            [0320]      0.00001
+      interPE                                      [0321]      0.00000
+      inner                                        [0322]      0.00000
+    pairhopp in Hubbard                            [0330]      0.00001
+      interPE                                      [0331]      0.00000
+      inner                                        [0332]      0.00000
+    exchange in Hubbard                            [0340]      0.00001
+      interPE                                      [0341]      0.00000
+      inner                                        [0342]      0.00000
+================================================
