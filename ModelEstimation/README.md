@@ -1,4 +1,4 @@
-# ModelEstimation
+# Model estimation for one-dimensional Heisenberg model 
 
 This script provides model estamation using [COMmon Bayesian Optimization Library (COMBO)](https://ma.issp.u-tokyo.ac.jp/en/app/1433) and HPhi.
 
