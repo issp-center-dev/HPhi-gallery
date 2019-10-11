@@ -35,9 +35,9 @@ After finishing calculations, you can obtain exact pair (J_1, J_2, J_3) = (1.0, 
     
     ``$ sh install_combo.sh``
 
-3. Move to ``tamura/hphi-modeling`` directory
+3. Move to ``ModelEstimation`` directory
 
-   ``$ cd ../../tamura/hphi-modeling``
+   ``$ cd ..``
 
 4. Uncomment line 31 in ``model_estimation.py``
 
@@ -50,5 +50,4 @@ After finishing calculations, you can obtain exact pair (J_1, J_2, J_3) = (1.0, 
    
    ``$ qsub sample_hphi_sekirei.sh``
    
-
 Author: Kazuyoshi Yoshimi (ISSP, Univ. of Tokyo), Date: 2019/10/12
