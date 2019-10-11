@@ -51,4 +51,4 @@ After finishing calculations, you can obtain exact pair (J_1, J_2, J_3) = (1.0, 
    ``$ qsub sample_hphi_sekirei.sh``
    
 
-Authour: Kazuyoshi Yoshimi (ISSP, Univ. of Tokyo), Date: 2019/10/12
+Author: Kazuyoshi Yoshimi (ISSP, Univ. of Tokyo), Date: 2019/10/12
