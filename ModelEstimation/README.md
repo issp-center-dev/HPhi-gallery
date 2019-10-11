@@ -1,6 +1,6 @@
 # ModelEstimation
 
-This script provides model estamation using [COMmon Bayesian Optimization Library (COMBO)](https://ma.issp.u-tokyo.ac.jp/app/1432) and HPhi.
+This script provides model estamation using [COMmon Bayesian Optimization Library (COMBO)](https://ma.issp.u-tokyo.ac.jp/en/app/1433) and HPhi.
 
 In this script, the L=12 one-dimensional Heisenberg model with <a href="https://www.codecogs.com/eqnedit.php?latex=J_1=1.0,&space;J_2=0.5,&space;J_3=0.3" target="_blank"><img src="https://latex.codecogs.com/gif.latex?J_1=1.0,&space;J_2=0.5,&space;J_3=0.3" title="J_1=1.0, J_2=0.5, J_3=0.3" /></a>,
 
