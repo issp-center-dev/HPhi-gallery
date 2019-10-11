@@ -7,9 +7,7 @@ In this sample, the L=12 one-dimensional Heisenberg model with <a href="https://
 <a href="https://www.codecogs.com/eqnedit.php?latex={\cal&space;H}&space;=&space;\sum_{i=1}^{12}J_1&space;{\bf&space;S}_i\cdot&space;{\bf&space;S}_{i&plus;1}&plus;J_2{\bf&space;S}_i\cdot{\bf&space;S}_{i&plus;2}&plus;J_3{\bf&space;S}_i\cdot{\bf&space;S}_{i&plus;3}" target="_blank"><img src="https://latex.codecogs.com/gif.latex?{\cal&space;H}&space;=&space;\sum_{i=1}^{12}J_1&space;{\bf&space;S}_i\cdot&space;{\bf&space;S}_{i&plus;1}&plus;J_2{\bf&space;S}_i\cdot{\bf&space;S}_{i&plus;2}&plus;J_3{\bf&space;S}_i\cdot{\bf&space;S}_{i&plus;3}" title="{\cal H} = \sum_{i=1}^{12}J_1 {\bf S}_i\cdot {\bf S}_{i+1}+J_2{\bf S}_i\cdot{\bf S}_{i+2}+J_3{\bf S}_i\cdot{\bf S}_{i+3}" /></a>,
 
 is estimated where
-<a href="https://www.codecogs.com/eqnedit.php?latex=i=1=13" target="_blank"><img src="https://latex.codecogs.com/gif.latex?i=1=13" title="i=1=13" /></a>.
-
-The search grids for (J_1, J_2, J_3) are defined in increments of 0.2 from 0 to 2, respectivery. The pair (J_1, J_2, J_3) is estimated by fitting magnetization curve using baysian optimization.
+<a href="https://www.codecogs.com/eqnedit.php?latex=i=1=13" target="_blank"><img src="https://latex.codecogs.com/gif.latex?i=1=13" title="i=1=13" /></a>. The search grids for (J_1, J_2, J_3) are defined in increments of 0.2 from 0 to 2, respectivery. The pair (J_1, J_2, J_3) is estimated by fitting magnetization curve using baysian optimization.
 
 
 
