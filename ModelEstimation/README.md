@@ -1,8 +1,8 @@
 # Model estimation for one-dimensional Heisenberg model 
 
-This script provides model estamation using [COMmon Bayesian Optimization Library (COMBO)](https://ma.issp.u-tokyo.ac.jp/en/app/1433) and HPhi.
+The way to estimate model parameters on one-dimensional Heisenberg model using [COMmon Bayesian Optimization Library (COMBO)](https://ma.issp.u-tokyo.ac.jp/en/app/1433) and HPhi is shown.
 
-In this script, the L=12 one-dimensional Heisenberg model with <a href="https://www.codecogs.com/eqnedit.php?latex=J_1=1.0,&space;J_2=0.5,&space;J_3=0.3" target="_blank"><img src="https://latex.codecogs.com/gif.latex?J_1=1.0,&space;J_2=0.5,&space;J_3=0.3" title="J_1=1.0, J_2=0.5, J_3=0.3" /></a>,
+In this sample, the L=12 one-dimensional Heisenberg model with <a href="https://www.codecogs.com/eqnedit.php?latex=J_1=1.0,&space;J_2=0.5,&space;J_3=0.3" target="_blank"><img src="https://latex.codecogs.com/gif.latex?J_1=1.0,&space;J_2=0.5,&space;J_3=0.3" title="J_1=1.0, J_2=0.5, J_3=0.3" /></a>,
 
 <a href="https://www.codecogs.com/eqnedit.php?latex={\cal&space;H}&space;=&space;\sum_{i=1}^{12}J_1&space;{\bf&space;S}_i\cdot&space;{\bf&space;S}_{i&plus;1}&plus;J_2{\bf&space;S}_i\cdot{\bf&space;S}_{i&plus;2}&plus;J_3{\bf&space;S}_i\cdot{\bf&space;S}_{i&plus;3}" target="_blank"><img src="https://latex.codecogs.com/gif.latex?{\cal&space;H}&space;=&space;\sum_{i=1}^{12}J_1&space;{\bf&space;S}_i\cdot&space;{\bf&space;S}_{i&plus;1}&plus;J_2{\bf&space;S}_i\cdot{\bf&space;S}_{i&plus;2}&plus;J_3{\bf&space;S}_i\cdot{\bf&space;S}_{i&plus;3}" title="{\cal H} = \sum_{i=1}^{12}J_1 {\bf S}_i\cdot {\bf S}_{i+1}+J_2{\bf S}_i\cdot{\bf S}_{i+2}+J_3{\bf S}_i\cdot{\bf S}_{i+3}" /></a>,
 
