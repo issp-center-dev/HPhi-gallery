@@ -25,7 +25,7 @@ class calc_mag:
         self.input_param["model"] = "Spin"
         self.input_param["method"] = "CG"
         self.input_param["lattice"] = "chain"
-        self.input_param["L"] = 6
+        self.input_param["L"] = 12
         self.input_param["J0"] = 1.0
         self.input_param["J0'"] = 0.5
         self.input_param["J0''"] = 0.25

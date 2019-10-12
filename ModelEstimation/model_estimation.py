@@ -240,10 +240,10 @@ print ''
 # res.total_num_search: total number of search
 print 'f(x)='
 print res.fx[0:res.total_num_search]
+print 'history of chosed actions='
+print res.chosed_actions[0:res.total_num_search]
 print 'current best'
 print best_fx
 print 'current best action='
 print best_action
-print 'history of chosed actions='
-print res.chosed_actions[0:res.total_num_search]
         
