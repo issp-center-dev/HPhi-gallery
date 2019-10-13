@@ -239,11 +239,20 @@ print ''
 #                                                                                                   that has been observed until each step
 # res.total_num_search: total number of search
 print 'f(x)='
-print res.fx[0:res.total_num_search]
+fx_list = res.fx[0:res.total_num_search]
+print fx_list
+
 print 'history of chosed actions='
-print res.chosed_actions[0:res.total_num_search]
+action_list = res.chosed_actions[0:res.total_num_search]
+print action_list
+
 print 'current best'
 print best_fx
+
 print 'current best action='
 print best_action
         
+#Save results to dat file
+with open("combo_res.dat", "w") as f:
+    for _fx, _action, _best_fx, _best_action in zip(fx_list, action_list, best_fx, best_action):
+        f.write("{} {} {} {}\n".format(_fx, _action, _best_fx, _best_action))

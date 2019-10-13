@@ -76,7 +76,8 @@ class calc_mag:
             energy_list.append((sz, energy[0]))
             self.energy_list = energy_list
             subprocess.call("rm *.def", shell=True)
-                            
+            subprocess.call("rm lattice.gp", shell=True)
+            subprocess.call("rm geometry.dat", shell=True)
         return energy_list
 
     def get_mag(self, sz_energy_list, H):
